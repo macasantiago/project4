@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "Alice in Wonderland";
+    src: url("https://www.fontsaddict.com/fontface/alice-in-wonderland.ttf");
+}
+@font-face {
+    font-family: "Lexend";
+    src: url("https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Kalnia+Glaze:wght@100..700&family=Lexend:wght@100..900&display=swap");
+}
+h1 {
+    font-family: "Alice in Wonderland", sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+    color: #146160;
+    margin: 10px;
+    padding: 10px;
+}
+h2 {
+    font-family: "Alice in Wonderland", sans-serif;
+    font-size: 2em;
+    text-align: left;
+    color: #146160;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fffbf5;
+    text-align: left;
+    max-width: 50em;
+    line-height: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    display: inline-block;
+    background-color: #146160;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #146160;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #fffbf5;
+    color: #146160;
+    border-color: #146160;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    margin: 10px auto;
+    padding: 0;
+    height: 60px;
+    overflow: hidden;
+    background-color: #146160;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.homeimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 62%;
+    border: 2px solid #146160;
+}
+.chapterimages {
+    border: 2px solid #146160;
+    max-height: 300px;
+    width: auto;
+    margin-left: 10px;
+    margin-bottom: 7px;
+    float: right;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.chapterimages1 {
+    border: 2px solid #146160;
+    max-height: 500px;
+    width: auto;
+    margin-right: 10px;
+    margin-bottom: 7px;
+    float: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.center {
+    text-align: center;
+}
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #146160;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p {
+    font-family: "Lexend", sans-serif;
+}
