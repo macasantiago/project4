@@ -1,13 +1,13 @@
 @font-face {
-    font-family: "Alice in Wonderland";
-    src: url("https://www.fontsaddict.com/fontface/alice-in-wonderland.ttf");
+    font-family: 'AliceInWonderland';
+    src: url('./fonts/Alice_in_Wonderland.ttf') format('truetype');
 }
 @font-face {
     font-family: "Lexend";
     src: url("https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Kalnia+Glaze:wght@100..700&family=Lexend:wght@100..900&display=swap");
 }
 h1 {
-    font-family: "Alice in Wonderland", sans-serif;
+    font-family: 'AliceInWonderland', sans-serif;
     font-size: 3.5em;
     text-align: center;
     color: #146160;
