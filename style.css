@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Alice In Wonderland';
-    src: url('./fonts/Alice_in_Wonderland.ttf') format('truetype');
+    src: url('./fonts/Alice_in_Wonderland.ttf');
 }
 @font-face {
     font-family: "Lexend";
